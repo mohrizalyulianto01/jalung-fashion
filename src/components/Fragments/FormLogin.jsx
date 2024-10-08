@@ -5,7 +5,7 @@ export const FormLogin = () => {
         <form action="#">
             <InputForm htmlFor="email" text="email" label="Email" placeholder="example@gmail.com" />
             <InputForm htmlFor="password" text="password" label="Password" placeholder="********" />
-            <Button classname=" bg-blue-600 w-full" />
+            <Button classname=" bg-blue-600 w-full" title="Login" />
             {/* <p className="mt-5 text-center text-sm">Dont have an account? <Link to="/register" className="text-blue-500 font-bold">Register</Link></p> */}
         </form>
 

@@ -7,7 +7,7 @@ export const FormRegister = () => {
             <InputForm htmlFor="email" text="email" label="Email" placeholder="example@gmail.com" />
             <InputForm htmlFor="password" text="password" label="Password" placeholder="********" />
             <InputForm htmlFor="password" text="password" label="Confirm Password" placeholder="********" />
-            <Button classname=" bg-red-600 w-full" />
+            <Button classname=" bg-red-600 w-full" title="Register" />
         </form>
 
     )
